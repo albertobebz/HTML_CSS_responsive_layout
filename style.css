@@ -6,7 +6,7 @@
 }
 
 body{
-  background: #lightyellow;
+  background: #F1FF91;
 }
 
 #container{
@@ -34,7 +34,7 @@ body{
 .item{
   padding:10px;
   margin: 4px;
-  background:#eee;
+  background: #4B7DB2;
   -moz-background-clip: padding;
   -webkit-background-clip: padding;
  /* specify the painting area of the background*/
@@ -42,13 +42,13 @@ body{
 }
 
 .item div{
-  background:#cef;
+  background:#FF8177;
   height:100%;
   width:100%;
 }
 
 #myContent li p:hover{
-  color: red;
+  color: #4B89CC;
   text-decoration: underline;
 }
 
@@ -64,6 +64,7 @@ p {
   text-align:center; 
   vertical-align: middle;
   display: table-cell; 
+  color: #F1FF91;
   font-family: 'Oswald', sans-serif;
   font-size: 2em; 
 }
