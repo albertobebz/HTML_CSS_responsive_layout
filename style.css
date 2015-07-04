@@ -19,7 +19,7 @@ body{
   -webkit-column-gap: 0px;
   column-count: 6;
   column-gap: 0px;
-  width: 1200px;
+  width: 100%;
 }
 
 #myContent li{
