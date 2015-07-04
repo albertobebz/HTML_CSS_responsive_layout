@@ -30,7 +30,7 @@ body{
 }
 
 
-#item{
+.item{
     padding:10px;
     border:solid 4px transparent;
     background:#eee;
@@ -38,7 +38,7 @@ body{
     -webkit-background-clip: padding;
     background-clip: padding-box;
 }
-#item div{
+.item div{
     background:#cef;
     height:50px;
     width:100%;
