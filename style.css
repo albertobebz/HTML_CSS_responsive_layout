@@ -23,6 +23,7 @@ body{
   column-count: 6;
   column-gap: 0px;
   width: 100%;
+  height: 100%;
 }
 
 #myContent li{
@@ -46,6 +47,11 @@ body{
   width:100%;
 }
 
+#myContent li p:hover{
+  color: red;
+  text-decoration: underline;
+}
+
 /***Rules to display the p in the middle of the div***/
 .centerP {
   width:300px;
@@ -57,7 +63,9 @@ body{
 p {
   text-align:center; 
   vertical-align: middle;
-  display: table-cell;  
+  display: table-cell; 
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em; 
 }
 
 @media only screen and (max-width : 1199px),
