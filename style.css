@@ -32,18 +32,32 @@ body{
 
 .item{
   padding:10px;
-  /*border:solid 4px transparent;*/
   margin: 4px;
   background:#eee;
   -moz-background-clip: padding;
   -webkit-background-clip: padding;
+ /* specify the painting area of the background*/
   background-clip: padding-box;
 }
 
 .item div{
   background:#cef;
-  height:50px;
+  height:100%;
   width:100%;
+}
+
+/***Rules to display the p in the middle of the div***/
+.centerP {
+  width:300px;
+  height:100px;  
+  display: table; 
+  background:#ccddcc;  
+}
+
+p {
+  text-align:center; 
+  vertical-align: middle;
+  display: table-cell;  
 }
 
 @media only screen and (max-width : 1199px),
